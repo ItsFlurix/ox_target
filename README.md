@@ -12,5 +12,6 @@ To improve many design flaws, ox_target has been written from scratch and drops 
 - Improved entity and world collision detection.
 - Options now stack, rather than overriding.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Latest version of ox_target with a simple animation of the eye moving, I hope you like it, I will be bringing different scripts with modified things for your FiveM servers.
