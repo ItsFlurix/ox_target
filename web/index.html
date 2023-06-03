@@ -11,3 +11,52 @@
     <script defer type="module" src="js/main.js"></script>
   </body>
 </html>
+
+#eyeSvg {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+  animation: fire 1s infinite, colorchange 1s infinite;
+}
+
+@keyframes fire {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    opacity: 0.5;
+    transform: rotate(180deg) scale(1.2);
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(360deg) scale(1);
+  }
+  75% {
+    opacity: 0.5;
+    transform: rotate(-180deg) scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+@keyframes colorchange {
+  0% {
+    fill: #ffffff; /* initial color */
+  }
+  25% {
+    fill: #ffffff; /* intermediate color */
+  }
+  50% {
+    fill: #ffffff; /* intermediate color */
+  }
+  75% {
+    fill: #ffffff; /* intermediate color */
+  }
+  100% {
+    fill: #ffffff; /* final color */
+  }
+}
+</style>
